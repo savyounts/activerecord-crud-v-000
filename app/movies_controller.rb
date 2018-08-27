@@ -31,8 +31,8 @@ release_date: 1990)
   # release_date == 1990
 
   Movie.create do |m|
-    self.title = title,
-    self.release_date = release_date
+    @title = title,
+    @release_date = release_date
   end
 end
 
