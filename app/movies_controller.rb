@@ -37,7 +37,7 @@ release_date: 1990)
 end
 
 def can_get_the_first_item_in_the_database
-  __
+  Movie.find(1)
 end
 
 def can_get_the_last_item_in_the_database
