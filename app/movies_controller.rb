@@ -31,8 +31,7 @@ release_date: 1990)
   # release_date == 1990
 
   Movie.create do |m|
-    m.title = args[title]
-    m.release_date = args[release_date]
+    args
   end
 end
 
